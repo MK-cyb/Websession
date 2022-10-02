@@ -1,9 +1,139 @@
 * {
     margin: 0px; padding: 0px;
-    background-color: #0D3222;
 }
 
-#information{
+header{
+    position: absolute;
+        width: 1920px;
+        height: 156px;
+        left: 0px;
+        top: 0px;
+    
+        background: #0D3222;
+}
+#logo {
+    position: absolute;
+    width: 267px;
+    height: 76px;
+    left: 40px;
+    top: 40px;
+}
+#navif{
+    position: absolute;
+        width: 155px;
+        height: 40px;
+        left: 659px;
+        top: 59px;
+    
+        font-family: 'Arita-buri(OTF)';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        /* identical to box height, or 100% */
+    
+        text-align: center;
+    
+        color: #F6EBAF;
+    
+        text-shadow: 0px 0px 20px #FFFFFF;
+}
+#navli{
+    position: absolute;
+        width: 115px;
+        height: 30px;
+        left: 916px;
+        top: 64px;
+    
+        font-family: 'Arita-buri(OTF)';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        /* identical to box height, or 100% */
+    
+        text-align: center;
+    
+        color: #F6EBAF;
+}
+#navda{
+    position: absolute;
+        width: 113px;
+        height: 30px;
+        left: 1154px;
+        top: 64px;
+    
+        font-family: 'Arita-buri(OTF)';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        /* identical to box height, or 100% */
+    
+        text-align: center;
+    
+        color: #F6EBAF;
+}
+#navev{
+    position: absolute;
+        width: 85px;
+        height: 30px;
+        left: 1390px;
+        top: 64px;
+    
+        font-family: 'Arita-buri(OTF)';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        /* identical to box height, or 100% */
+    
+        text-align: center;
+        display: flex;
+    
+        color: #F6EBAF;
+}
+#navgo{
+    position: absolute;
+        width: 58px;
+        height: 30px;
+        left: 1597px;
+        top: 64px;
+    
+        font-family: 'Arita-buri(OTF)';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        /* identical to box height, or 100% */
+    
+        text-align: center;
+        display: flex;
+    
+        color: #F6EBAF;
+}
+
+#navmy{
+    position: absolute;
+        width: 45px;
+        height: 30px;
+        left: 1778px;
+        top: 64px;
+    
+        font-family: 'Arita-buri(OTF)';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        /* identical to box height, or 100% */
+    
+        text-align: center;
+        display: flex;
+    
+        color: #F6EBAF;
+}
+
+.top_container{
     position: absolute;
     width: 1930px;
     height: 3669px;
@@ -12,13 +142,94 @@
     
     background: #E6D7BA;
 }
+#point{
+    position: absolute;
+        width: 748px;
+        height: 130px;
+        left: 784px;
+        top: 392px;
+    
+        font-family: 'Noh Optique';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 200px;
+        line-height: 100px;
+        /* or 50% */
+    
+    
+        color: #0E3C18;
+}
+#form{
+    position: absolute;
+        width: 171px;
+        height: 366px;
+        left: 784px;
+        top: 604px;
+    
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 100px;
+        /* or 286% */
+    
+        color: #0E3C18;
+}
+
+#ans{
+    position: absolute;
+        width: 765px;
+        height: 366px;
+        left: 955px;
+        top: 604px;
+    
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 100px;
+        /* or 286% */
+    
+    
+        color: #0E3C18;
+}
+
+#line1{
+    position: absolute;
+        width: 936px;
+        height: 0px;
+        left: 784px;
+        top: 703px;
+    
+        border: 0.5px solid #0E3C18;
+}
+
+#line2{
+    position: absolute;
+        width: 936px;
+        height: 0px;
+        left: 784px;
+        top: 804px;
+    
+        border: 0.5px solid #0E3C18;
+}
+
+#line3{
+    position: absolute;
+        width: 936px;
+        height: 0px;
+        left: 784px;
+        top: 905px;
+    
+        border: 0.5px solid #0E3C18;
+}
 
 #poster1{
     position: absolute;
-    width: 497px;
-    height: 726px;
-    left: 200px;
-    top: 284px;
+        width: 497px;
+        height: 726px;
+        left: 200px;
+        top: 284px;
 }
 
 h1{
@@ -37,4 +248,339 @@ h1{
     
     
         color: #0E3C18;
+}
+#middle_container {
+    position: absolute;
+    width: 1940px;
+    height: 809px;
+    left: -10px;
+    top: 1134px;
+
+    background: #0D3222;
+}
+
+#subtitle{
+    position: absolute;
+        width: 1220px;
+        height: 134px;
+        left: 350px;
+        top: 1290px;
+    
+        font-family: 'Snell Roundhand';
+        font-style: italic;
+        font-weight: 900;
+        font-size: 90px;
+        line-height: 113px;
+        text-align: center;
+    
+        color: #F6EBAF;
+    
+        text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
+}
+
+#discription{
+    position: absolute;
+        width: 1558px;
+        height: 298px;
+        left: 181px;
+        top: 1484px;
+    
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 50px;
+        /* or 147% */
+    
+        text-align: center;
+    
+        color: #E5D7BA;
+}
+
+#ellipse1{
+    position: absolute;
+        width: 29px;
+        height: 29px;
+        left: 186px;
+        top: 1233px;
+    
+        background: #F6EBAF;
+        filter: blur(10px);
+}
+
+#ellipse2{
+    position: absolute;
+        width: 19px;
+        height: 19px;
+        left: 358px;
+        top: 1484px;
+    
+        background: #F6EBAF;
+        filter: blur(5px);
+}
+
+#ellipse3 {
+    position: absolute;
+        width: 38px;
+        height: 38px;
+        left: 254px;
+        top: 1705px;
+    
+        background: #F6EBAF;
+        filter: blur(15px);
+}
+#ellipse4 {
+    position: absolute;
+        width: 29px;
+        height: 29px;
+        left: 1606px;
+        top: 1240px;
+    
+        background: #F6EBAF;
+        filter: blur(10px);
+}
+#ellipse5 {
+        /* Ellipse 36 */
+    
+    
+        position: absolute;
+        width: 19px;
+        height: 19px;
+        left: 1777px;
+        top: 1424px;
+    
+        background: #F6EBAF;
+        filter: blur(5px);
+}
+#ellipse6 {
+    position: absolute;
+        width: 29px;
+        height: 29px;
+        left: 1565px;
+        top: 1581px;
+    
+        background: #F6EBAF;
+        filter: blur(10px);
+}
+
+#lastyearevent{
+    position: absolute;
+        width: 306px;
+        height: 65px;
+        left: 807px;
+        top: 2086px;
+    
+        font-family: 'Noh Optique';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+        text-align: center;
+    
+        color: #0E3C18;
+}
+
+#t2017{
+    position: absolute;
+        width: 240px;
+        height: 32px;
+        left: 238px;
+        top: 2733px;
+    
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    
+        color: #0E3C18;
+}
+
+#t2018{
+    position: absolute;
+        width: 240px;
+        height: 32px;
+        left: 635px;
+        top: 2733px;
+    
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    
+        color: #0E3C18;
+}
+
+#t2019{
+    position: absolute;
+        width: 240px;
+        height: 32px;
+        left: 1036px;
+        top: 2733px;
+    
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    
+        color: #0E3C18;
+}
+
+#t2020{
+    position: absolute;
+        width: 240px;
+        height: 32px;
+        left: 1437px;
+        top: 2733px;
+    
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    
+        color: #0E3C18;
+}
+
+#p2017{
+    position: absolute;
+        width: 317px;
+        height: 462px;
+        left: 200px;
+        top: 2244px;
+}
+
+#p2018{
+    position: absolute;
+        width: 327px;
+        height: 462px;
+        left: 592px;
+        top: 2244px;
+}
+
+#p2019{
+    position: absolute;
+        width: 326px;
+        height: 462px;
+        left: 993px;
+        top: 2244px;
+}
+
+#p2020{
+    position: absolute;
+        width: 327px;
+        height: 462px;
+        left: 1394px;
+        top: 2244px;
+}
+
+#bsection{
+    position: absolute;
+        width: 1920px;
+        height: 616px;
+        left: 0px;
+        top: 3045px;
+    
+        background: #0D3222;
+}
+
+#sponsorship{
+    position: absolute;
+        width: 242px;
+        height: 65px;
+        left: 839px;
+        top: 3169px;
+    
+        font-family: 'Noh Optique';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+        text-align: center;
+    
+        color: #F6EBAF;
+}
+
+#tori{
+    position: absolute;
+        width: 212.23px;
+        height: 53.63px;
+        left: 334.72px;
+        top: 3381.42px;
+}
+#cho{
+    position: absolute;
+        width: 197.4px;
+        height: 41.08px;
+        left: 610.85px;
+        top: 3342.63px;
+}
+#lavo{
+    position: absolute;
+        width: 147.19px;
+        height: 47.92px;
+        left: 860.73px;
+        top: 3339.21px;
+}
+#aruu{
+    position: absolute;
+        width: 180.28px;
+        height: 47.92px;
+        left: 1034.17px;
+        top: 3339.21px;
+}
+#herb{
+    position: absolute;
+        width: 179.14px;
+        height: 44.5px;
+        left: 1248.68px;
+        top: 3342.63px;
+}
+#snac{
+    position: absolute;
+        width: 124.37px;
+        height: 57.05px;
+        left: 1460.91px;
+        top: 3333.5px;
+}
+#keto{
+    position: absolute;
+        width: 207.67px;
+        height: 54.77px;
+        left: 606.28px;
+        top: 3439.62px;
+}
+#tiem{
+    position: absolute;
+        width: 147.19px;
+        height: 51.35px;
+        left: 860.73px;
+        top: 3439.62px;
+}
+#wash{
+    position: absolute;
+        width: 184.85px;
+        height: 49.06px;
+        left: 1031.89px;
+        top: 3439.62px;
+}
+#efil{
+    position: absolute;
+        width: 118.67px;
+        height: 41.08px;
+        left: 1278.35px;
+        top: 3439.62px;
+}
+#reno{
+    position: absolute;
+        width: 156px;
+        height: 68px;
+        left: 1445px;
+        top: 3414.5px;
 }
